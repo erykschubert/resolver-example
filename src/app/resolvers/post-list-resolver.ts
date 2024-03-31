@@ -3,6 +3,6 @@ import { Post } from "../models/post.model";
 import { PostService } from "../services/post.service";
 import { inject } from "@angular/core";
 
-export const PostListResolver: ResolveFn<Post> = () => {
+export const PostListResolver: ResolveFn<Post[]> = () => {
     return inject(PostService).getPosts();
 }
