@@ -1,0 +1,19 @@
+.post-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.post-card {
+    width: 400px;
+
+    background: rgb(210, 224, 245);
+
+    &__header-image {
+        background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+        background-size: cover;
+    }
+}
